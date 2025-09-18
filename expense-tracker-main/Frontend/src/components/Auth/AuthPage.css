@@ -1,0 +1,82 @@
+/* General Container for Login and SignUp */
+.auth-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f7fc;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Form styles */
+.auth-form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Heading styles */
+.auth-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Input field container */
+.auth-field {
+    margin-bottom: 15px;
+}
+
+/* Input fields style */
+.auth-input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+/* Button style */
+.auth-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.auth-button:hover {
+    background-color: #45a049;
+}
+
+/* Footer Section (Optional) */
+.auth-footer {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #777;
+}
+
+.auth-footer a {
+    color: #4caf50;
+    text-decoration: none;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .auth-container {
+        padding: 20px; /* Add padding for smaller screens */
+    }
+    .auth-form {
+        padding: 20px; /* Reduce form padding on small screens */
+    }
+}
